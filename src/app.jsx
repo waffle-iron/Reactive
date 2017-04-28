@@ -20,12 +20,10 @@ const Card = props => {
         <div className="image">
           <img src={props.avatar_url} />
         </div>
-        <div className="wave" />
-        <div className="wave" />
-        <div className="wave" />
+        <div className="wave" /><div className="wave" /><div className="wave" />
         <div className="info">
-          <h2 className="title">{props.name}</h2>
-          <author className="artist">{props.company}</author>
+          <h2 className="title">{props.song}</h2>
+          <author className="artist">{props.artist}</author>
         </div>
       </div>
     </div>
@@ -38,25 +36,24 @@ class MusicCard extends React.Component {
     Cards: [
       {
         avatar_url: "https://upload.wikimedia.org/wikipedia/en/9/93/Weezer_-_Green_Album.png",
-        name: "Blake Mastrud",
-        company: "Williams Companies"
+        song: "Island in the sun",
+        artist: "Weezer"
       },
       {
         avatar_url: "https://avatars3.githubusercontent.com/u/9699183?v=3",
-        name: "Blake Mastrud",
-        company: "Williams Companies"
+        song: "Blake Mastrud",
+        artist: "Williams Companies"
       },
       {
         avatar_url: "https://avatars3.githubusercontent.com/u/9699183?v=3",
-        name: "Blake Mastrud",
-        company: "Williams Companies"
+        song: "Blake Mastrud",
+        artist: "Williams Companies"
       },
-       {
+      {
         avatar_url: "https://avatars3.githubusercontent.com/u/9699183?v=3",
-        name: "Blake Mastrud",
-        company: "Williams Companies"
-      },
-  
+        song: "Blake Mastrud",
+        artist: "Williams Companies"
+      }
     ]
   };
   render() {
@@ -77,27 +74,6 @@ const CardList = props => {
     </div>
   );
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*class Form extends React.Component {
   state = { userName: "" };
