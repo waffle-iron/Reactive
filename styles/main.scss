@@ -1,0 +1,23 @@
+body {
+  background: #ece7e7;
+}
+
+.rightSide {
+  padding: 2px 16px;
+  width: 100%;
+  text-align: center;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  float: right;
+  width: 50%;
+}
+
+.leftSide {
+  padding: 2px 16px;
+  width: 100%;
+  text-align: center;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  float: left;
+  width: 50%;
+}
