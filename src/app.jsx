@@ -51,12 +51,11 @@ class MusicCard extends React.Component {
         name: "Blake Mastrud",
         company: "Williams Companies"
       },
-       {
+      {
         avatar_url: "https://avatars3.githubusercontent.com/u/9699183?v=3",
         name: "Blake Mastrud",
         company: "Williams Companies"
-      },
-  
+      }
     ]
   };
   render() {
@@ -77,27 +76,6 @@ const CardList = props => {
     </div>
   );
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*class Form extends React.Component {
   state = { userName: "" };
