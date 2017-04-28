@@ -37,7 +37,7 @@ class MusicCard extends React.Component {
   state = {
     Cards: [
       {
-        avatar_url: "https://avatars3.githubusercontent.com/u/9699183?v=3",
+        avatar_url: "https://upload.wikimedia.org/wikipedia/en/9/93/Weezer_-_Green_Album.png",
         name: "Blake Mastrud",
         company: "Williams Companies"
       },
@@ -47,6 +47,11 @@ class MusicCard extends React.Component {
         company: "Williams Companies"
       },
       {
+        avatar_url: "https://avatars3.githubusercontent.com/u/9699183?v=3",
+        name: "Blake Mastrud",
+        company: "Williams Companies"
+      },
+       {
         avatar_url: "https://avatars3.githubusercontent.com/u/9699183?v=3",
         name: "Blake Mastrud",
         company: "Williams Companies"

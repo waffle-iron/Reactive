@@ -1,6 +1,6 @@
 // Variables ---------------------
-$veronica:         #B01DE8;
-$red-orange:       #F34235;
+$veronica:         #f5f5f5;
+$red-orange:       #ff6d00;
 
 // Animation ----------------------
 
@@ -19,14 +19,14 @@ body {
 
 .music-card {
   & {
-    margin: 100px auto;
+    margin: 20px auto;
     border-radius: 20px;
     background: #fff;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
     overflow: hidden;
     position: relative;
     width: 300px;
-    height: 500px;
+    height: 450px;
     margin-left: 20px;
     margin-right: 20px;
   }
@@ -34,24 +34,16 @@ body {
   > .image img {
     position: relative;
     z-index: 1;
-    opacity: 0.3;
-    height: 300px;
-    width: 300px;  
+    opacity: 1;
+    height: 100%;
+    width: 100%; 
+    
   }
-  
-  > .image:after {
-    height: 100px;
-    content: '';
-    top: 200px;
-    position: absolute;
-    width: 100%;
-    z-index: 1;
-    background: linear-gradient(rgba(#DD417F,0),#DD417F); 
-  }
+
   
   > .wave {
     position: absolute;
-    height: 750px;
+    height: 700px;
     width: 750px;
     opacity: 0.6;
     left: 0;
@@ -60,17 +52,17 @@ body {
     margin-top: -130%;
     border-radius: 40%;
     background: radial-gradient($veronica,$red-orange);
-    animation: spin 9000ms infinite linear;
+    animation: spin 10000ms infinite linear;
   }
   
   > .wave:nth-child(2) {
     top: 10px;
-    animation: spin 6000ms infinite linear;
+    animation: spin 8500ms infinite linear;
   }
   
   > .wave:nth-child(3) {
     top: 10px;
-    animation: spin 7000ms infinite linear;
+    animation: spin 6300ms infinite linear;
   }
   
   > .info {
